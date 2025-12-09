@@ -95,6 +95,6 @@ def get_recent_results():
         })
     return jsonify(formatted_results)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     init_db()
     app.run()
