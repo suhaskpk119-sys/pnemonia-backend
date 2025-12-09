@@ -6,7 +6,7 @@ import sqlite3
 import datetime
 import hashlib
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)
 
 UPLOAD_FOLDER = 'uploads'
